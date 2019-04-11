@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <h1>List of Languages</h1>
+    @{
+        var proLang = new List<String>()
+    {
+        "Java","ASP .NET","PHP"
+    };
+        var set = new HashSet<int,string>()
+        {
+            { 1,"abc"},{2,"gsf" },{3,"ksh" }
+        };
+
+        <ul>
+            @foreach (string obj in proLang)
+            {
+                <li>@obj</li>
+            }
+
+        </ul>
+
+    }
+
+
+</body>
+</html>
